@@ -6,6 +6,7 @@ import { ContactpageComponent } from './pages/contactPAge/contactpage.component'
 import { HomepageComponent } from './pages/home-page/home-page.component';
 import { SidebarComponent } from './sidebar/sidebar.components';
 import { SearchComponent } from './components/search/search.component';
+import { LoadingSpinnerComponent } from './components/loadingSpinner/loadingspinner.component';
 
 @NgModule({
     declarations: [
@@ -13,7 +14,8 @@ import { SearchComponent } from './components/search/search.component';
         AboutPageComponent,
         SidebarComponent,
         ContactpageComponent,
-        SearchComponent
+        SearchComponent,
+        LoadingSpinnerComponent
 
     ],
     imports: [ 
@@ -25,7 +27,8 @@ import { SearchComponent } from './components/search/search.component';
             AboutPageComponent,
             SidebarComponent,
             ContactpageComponent,
-            SearchComponent
+            SearchComponent,
+            LoadingSpinnerComponent
     ],
     providers: [],
 })

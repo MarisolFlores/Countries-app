@@ -8,8 +8,8 @@ import { CountryPageComponent } from './pages/country-page/country-page.componen
 const routes:Routes=[
     { path:'by-capital',component: BycapitalComponent },
     { path:'by-country',component: ByCountryPageComponent},
-    { path:'bycapital',component: BycapitalComponent },
-    { path:'by/:idl',component: CountryPageComponent },
+    { path:'by-region',component: ByRegionPageComponent },
+    { path:'by/:id',component: CountryPageComponent },
     {path:'**', component:BycapitalComponent }
 ]
 @NgModule({
